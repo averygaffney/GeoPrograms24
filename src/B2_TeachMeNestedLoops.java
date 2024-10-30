@@ -3,7 +3,7 @@ public class B2_TeachMeNestedLoops extends World {
    public void go() {
       plane.pausetime = 1;
       plane.teleport(0,0);
-
+// i made a change
       for(int y=0; y<300; y=y+1){
          for(int x=0; x<1000; x=x+1){
             plane.teleport(x, y);
